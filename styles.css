@@ -4,10 +4,19 @@
     --primary-color: #14b8a6;
     --dark-gray: #6b7280;
     --off-white: #f3f4f6;
+    --width-break: 80%;
 }
+/* main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+} */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
 }
 
 hr{
@@ -30,18 +39,21 @@ hr{
     padding: 0.5rem 1rem;
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
+    
 }
 
 .link-primary {
     background-color: #14b8a6;
     border-radius: 0.5rem;
     color: white;
+    margin-right: 1rem;
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    margin-right: 1rem;
 }
 
 /* links */
